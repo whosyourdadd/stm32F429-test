@@ -87,21 +87,7 @@
 
 extern u16 Adc_DMA_Buf[4] ;
 
-void
-GAME_EventHandler1();
-/*
-void
-GAME_EventHandler2();
-
-void
-GAME_EventHandler3();
-
-void
-GAME_Update();
-
-void
-GAME_Render();
-*/
+void  GAME_EventHandler1();
 //void SET_NRF_CSN(GPIO_InitTypeDef  * GPIOx,unsigned char GPIO_PinValue, unsigned char value);
 //void SET_NRF_CE(GPIO_InitTypeDef *GPIOx,unsigned char GPIO_PinValue, unsigned char value);
 void Delay_count(int count);
